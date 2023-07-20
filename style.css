@@ -1,0 +1,221 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+body{
+	background-color: rgb(0, 0, 0, 0.1);
+	background: url('back1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+label{
+	color: snow;
+}
+
+.upper {
+	height: 200px;
+	width: 100%;
+	border-bottom: 2px solid rgb(151, 10, 10);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.INupper {
+	width: 50%;
+	height: 50%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 72px;
+	color: rgb(151, 10, 10, 0.9);
+	text-shadow: 2px 2px black;
+}
+
+.middle {
+	width: 100%;
+	height: 1500px;
+	display: flex;
+	flex-wrap: nowrap;
+	border-top: 2px solid rgb(151, 10, 10);
+}
+
+.left_part {
+	width: 13%;
+	height: 1500px;
+	border: 2px solid rgb(151, 10, 10);
+	border-top: 0px;
+	background-color: rgba(0, 0, 0, 0.3);
+	font-weight: 600;
+}
+
+.intro{
+	width: 100%;
+	height: 200px;
+	border-bottom: 2px solid rgb(151, 10, 10);
+	color: snow;
+	font-size: 140%;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-shadow: 2px 2px black;
+}
+
+.card_text {
+	margin: 10px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+}
+
+.main_part {
+	width: 87%;
+	height: 1500px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block {
+	margin: 3% 3%;
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	max-height: 600px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid rgb(151, 10, 10);
+	border-radius: 6px;
+}
+
+.portret {
+	height: 300px;
+	width: 100%;
+	border-radius: 3px;
+}
+
+.block_name {
+	text-align: center;
+	font-size: 30px;
+	color: rgb(151, 10, 10);
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+}
+
+.down {
+	border: 2px solid rgb(151, 10, 10);
+	border-radius: 3px;
+	font-weight: 600;
+	font-size: 32px;
+	color: snow;
+}
+
+.info {
+	width: 87%;
+	height: 1200px;
+	display: flex;
+	flex-direction: column;
+}
+
+.name {
+	padding: 20px 0px;
+	width: 99.8%;
+	max-height: 140px;
+	text-align: center;
+	font-size: 60px;
+	color: rgb(147, 65, 110);
+	background-color: rgba(255, 125, 162, 0.125);
+	text-shadow: 2px 2px 1px black;
+	border-bottom: 2px solid rgb(151, 10, 10);
+	border-right: 2px solid rgb(151, 10, 10);
+}
+
+.shortcut {
+	width: 100%;
+	display: flex;
+}
+
+.tracks {
+	width: 67%;
+	height: auto;
+	border-right: 2px solid rgb(151, 10, 10);
+	background-color: rgba(62, 91, 255, 0.1);
+}
+
+.tr_title {
+	margin: 5px 20%;
+	color: #c5c227;
+	font-size: 32px;
+	text-shadow: 1px 1px black;
+}
+
+.links {
+	padding: 5px 30px 20px;
+	font-size: 32px;
+	color: rgb(151, 10, 10, 0.9);
+	text-shadow: 1px 1px black;
+}
+
+.facts {
+	padding: 5px 5px;
+	width: 33%;
+	height: auto;
+	color:  rgb(1, 55, 68);
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px black;
+	border-right: 2px solid rgb(151, 10, 10);
+}
+
+.some_facts {
+	padding: 6px;
+	width: 100%;
+	height: auto;
+}
+
+.main_text {
+	padding-top: 2%;
+	padding-left: 3%;
+	height: auto;
+	width: 97%;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-top: 2px solid rgb(151, 10, 10);
+	text-shadow: 1px 1px black;
+	color: snow;
+	font-size: 26px
+}
+
+input[type=text] {
+	font-size: 18px;
+	width: 200px;
+}
+
+input[type=submit] {
+	font-size: 18px;
+	width: 200px;
+}
+
+input[type=submit]:hover {
+	background: #E64A19;
+	color: #FFF;
+}
+
+textarea {
+	font-size: 18px;
+	width: 500px;
+	height: 150px;
+	resize: none;
+}
+
+.main_text table{
+	border: 2px solid purple;
+	width: 40%;
+}
+
+.main_text th{
+	width:20%;
+	border: 2px solid purple;
+}
+
+.main_text td{
+	width:20%;
+	border: 2px solid purple;
+}
